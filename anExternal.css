@@ -1,0 +1,80 @@
+/*H1 tags redone for clarity*/
+
+	h1{
+		font:Arial, Helvetica, sans-serif;
+		font-size:50px; 
+	}
+
+/*Two paragraphs that have a different font*/
+
+	#Zelazny{
+		font:Verdana; 
+		font-size: 20px;
+	}
+
+	#Brust{
+		font-family:"Courier New", Courier, monospace;
+		font-size: 20px; 
+	}
+
+
+/*Two pictures that are resized to 50px by 50px*/
+	.fifty{
+		width: 50px;
+		height: 50px;
+	}
+
+/*Text that is centered on a photo*/
+	.container{
+	  position: relative;
+	  text-align: center;
+	  color: black;
+	}
+	.dog{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	#resizing{
+		width: 432px;
+		height: 200px;
+	}
+
+/*A photo with 20 pixel margins on each side*/
+
+	#cat{
+		width: 75px;
+		height: 112px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+/*Text with a border that uses dotted lines*/
+
+	#dotted{
+		font-size: 20px;
+		font: ariel;
+		font-weight: bold;
+		border-style: dotted;
+	}
+
+/*A floated element*/
+	#something{
+		float: right;
+		font-size: 25px;
+		font-weight: bold;
+		font: verdana;
+	}
+
+
+/*An element with rounded border corners*/ 
+
+	#round{
+		width: 120px;
+		height: 60px;
+		border-radius: 25px;
+	}
