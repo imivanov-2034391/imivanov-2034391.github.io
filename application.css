@@ -1,0 +1,52 @@
+body{
+	background-color: #F5F5F5;
+	color: black;
+}
+
+h2{
+	color: black;
+	font-family: Courier, monospace;
+	font-size: 50px;
+	text-align: center;
+	
+}
+fieldset{
+	border: 3px solid black;
+	font-family:  Courier, monospace;
+}
+
+div{
+	font-family:  Courier, monospace;
+	font-weight: bolder;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+}
+
+legend{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+
+control-label{
+	font-family: Courier, monospace;
+	font-size: 16px;
+}
+
+table {
+  border: 1px solid black;
+}
+
+#submitform{
+	width: 150px;
+	height: 50px;
+	color: white;
+	background-color: #009933;
+    margin-left: 50px;
+    font-family: Courier, monospace;
+    font-weight: bolder;
+    font-size: 20px;
+
+}
